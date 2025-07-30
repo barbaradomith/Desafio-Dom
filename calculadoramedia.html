@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de Média</title>
+  <link rel="stylesheet" href="calculadoramedia.css">
+</head>
+<body>
+
+  <div class="calculadora">
+    <h1>Média das Notas dos Alunos</h1>
+
+    <form id="formulario">
+      <label for="nota">Nota:</label>
+      <input type="text" id="nota" placeholder="Ex: 7.5 ou 7,5">
+      <button type="button" id="botao-adicionar">Adicionar</button>
+    </form>
+
+    <textarea id="caixa-notas" rows="10" readonly placeholder="Notas adicionadas aparecerão aqui..."></textarea>
+
+    <button id="botao-media">Calcular Média</button>
+
+    <p>A média é: <span id="resultado-media"></span></p>
+  </div>
+
+  <script src="calculadoramedia.js"></script>
+</body>
+</html>

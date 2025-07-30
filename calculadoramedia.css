@@ -1,0 +1,85 @@
+body {
+    background-color: #DDDDFF;
+    margin: 50px; 
+    font-family: Arial, sans-serif;
+}
+
+
+.calculadora {
+    background-color: #FFFFFF; 
+    padding: 20px; 
+    border: 1px solid #666666; 
+    width: 400px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+h1 {
+    color: #333333; 
+    margin-bottom: 20px; 
+    font-size: 24px; 
+}
+
+
+form#formulario {
+    margin-bottom: 15px; 
+}
+
+form#formulario label {
+    display: inline-block; 
+    width: 50px; 
+    text-align: left;
+    margin-right: 10px;
+    color: #333333;
+    font-weight: bold;
+}
+
+form#formulario input[type="text"] {
+    padding: 8px; 
+    border: 1px solid #999999; 
+    width: 200px; 
+    font-size: 16px; 
+    margin-right: 10px; 
+}
+
+
+button { 
+    background-color: #008CBA; 
+    color: white; 
+    padding: 10px 15px; 
+    border: none;      
+    font-size: 16px;
+}
+
+
+#caixa-notas {
+    width: 360px; 
+    height: 120px; 
+    border: 1px solid #999999;
+    padding: 10px;
+    font-size: 16px;
+    color: #333333;
+    background-color: white; 
+    margin-bottom: 15px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    resize: none; 
+}
+
+
+#botao-media { 
+    width: 100%; 
+    padding: 12px; 
+    margin-bottom: 20px; 
+}
+
+
+p {
+    font-size: 18px; 
+    font-weight: bold;
+    color: #333333;
+    text-align: left; 
+    margin: 0; 
+}
+
